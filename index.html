@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musubi</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --color-bg-main: #fbf7f5;
+        --font-main: 'Readex Pro', sans-serif;
+      }
+    </style>
+
+</head>
+
+<!-- FIRST PAGE -->
+<body id="login" class="w-screen overflow-x-hidden scroll-smooth">
+        <section class="h-screen w-full flex flex-col justify-center items-center bg-cover bg-center" 
+         style="background-image: url('photos/login-bg.png'); font-family: var(--font-main);">
+    
+        <img src="photos/logo.png" alt="Musubi Logo" class="mx-auto mb-0 w-62 h-60">
+
+    <a href="#menu" class="bg-yellow-600 hover:bg-yellow-800 transform transition duration-300 hover:scale-110 text-white tracking-[0.15em] text-xl text-shadow-md py-2 px-11 rounded-full mt-10 mx-auto w-fit transition-all">
+        DIG IN
+    </a>
+
+    <h3 class="absolute bottom-10 left-1/2 -translate-x-1/2 text-center text-amber-800 tracking-[0.25em] italic w-full text-lg">
+    The Art of Onigiri, Perfected for Your Taste
+    </h3>
+</section>
+<!-- END -->
+
+<!-- SECOND PAGE -->
+<section id="menu" class="min-h-screen w-screen py-20 bg-stone-300 flex flex-col items-center">
+    <div class="text-center">
+        <h2 class="text-4xl font-bold mb-4">Our Menu</h2>
+        <p class="text-gray-600">Delicious Onigiri options...</p>
+        </div>
+</section>
+<!-- END -->
+
+</body>
+</html>
